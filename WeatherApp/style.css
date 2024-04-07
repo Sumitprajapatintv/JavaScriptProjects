@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: #222;
+}
+.card {
+  width: 90%;
+  background-color: aqua;
+  max-width: 450px;
+  background: linear-gradient(
+    90deg,
+    rgba(31, 213, 180, 1) 0%,
+    rgba(24, 204, 160, 1) 53%,
+    rgba(40, 197, 181, 1) 68%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #fff;
+  margin: 100px auto 0;
+  padding: 40px 35px;
+  border-radius: 30px;
+  /* height: 80%; */
+  /* background: linear-gradient(31, 213, 180, 100); */
+}
+.inputSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inputSection input {
+  border: 0;
+  outline: 0;
+  background: #ebebeb;
+  padding: 10px 25px;
+  height: 50px;
+  margin-left: 16px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+.inputSection button {
+  border: 0;
+  outline: 0;
+  background: #ebebeb;
+  border-radius: 50%;
+  width: 60px;
+  height: 55px;
+  cursor: pointer;
+}
+.inputSection img {
+  width: 20px;
+}
+.whether {
+  text-align: center;
+}
+.whether img {
+  margin-top: 40px;
+  width: 45px;
+}
+.whether h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+.whether h2 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px;
+  margin: 30px;
+}
+.col img {
+  width: 45px;
+  margin-right: 10px;
+}
+.humidity,
+.wind {
+  font-size: 36px;
+  margin-top: 20px;
+}
+.error {
+  display: none;
+  font-size: 18px;
+  font-weight: 100;
+  margin-top: 20px;
+}
