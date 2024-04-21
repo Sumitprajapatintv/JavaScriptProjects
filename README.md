@@ -7,5 +7,6 @@ Project 2:
    TO-DO App where you can add your task and when the task completed mark it as Completed
    Data Here Save in localStorage So if you refresh the browser the data will still be there
    Tech-HTML,CSS,JAVASCRIPT
+![Screenshot 2024-04-21 162032](https://github.com/Sumitprajapatintv/JavaScriptProjects/assets/115876189/1f24d5d2-28b5-46a7-801a-70458201c23f)
 
    
